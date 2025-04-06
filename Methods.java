@@ -1,10 +1,10 @@
 public class Methods {;
     public static void main(String[] args) {
-        greet("jonaw", "tad");
-        greet("john", "tad");
+        sqrt(20);
     }
-    public static void greet(String firstName, String lastName){
-        System.out.println("hello, " + firstName+ " "+ lastName);
+    public static void sqrt(double a){
+        System.out.println(Math.sqrt(a));
+        
 
     }
 }
